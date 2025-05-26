@@ -1,10 +1,13 @@
  
 body{
+background: linear-gradient(135deg,#ffc078,#ffec99,#a3e635);
 
 }
 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size:48px ;
+    color:#333333;
 }
 .form-container {
     
@@ -30,14 +33,14 @@ cursor: pointer;
   
 }
 .input-text-area{
-    padding: 10px 40px;
+    padding: 15px 60px;
     border-radius: 10px;
-    border: 1px solid #ffa500 ;
+    border: 1px solid #32CD32 ;
 
 }
 .hint{
     font-style: italic;
-    font-weight: bolder;
+   font-weight: bold;
     text-align: center;
 }
 .recipe-container{
@@ -45,15 +48,20 @@ cursor: pointer;
     max-width:600px;
     margin:0 auto;
     padding:15px;
-    border : 1px solid #ffa500;
+    border-left : 7px solid #ffa500;
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #333333;
+   height: 50vh;
 }
 footer{
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
      text-align: center;
      font-size: 18px;
+     font-weight: bold;
+     margin-top: 20px;
+     color:#333333;
 }
