@@ -1,0 +1,27 @@
+ 
+body{
+
+}
+.generate-button{
+    background-color: #ffa500;
+    color: white;
+   border: none;
+   padding: 5px 20px ;
+   border-radius: 10px;
+font-weight: bolder;
+font-size: 15px;
+}
+.generate-button:hover{
+    background-color:#FFD700;
+    transform: scale(1.1);
+}
+.input-text-area{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid #ffa500 ;
+
+}
+.hint{
+    font-style: italic;
+    font-weight: bolder;
+}
