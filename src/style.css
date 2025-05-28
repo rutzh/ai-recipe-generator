@@ -49,7 +49,7 @@ cursor: pointer;
 }
 .recipe-container{
     background-color:#FFF8DC;
-    max-width:600px;
+    width:600px;
     margin:0 auto;
     padding:15px;
     border-left : 7px solid #ffa500;
@@ -57,7 +57,7 @@ cursor: pointer;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #333333;
-   height: 50vh;
+   height: 70vh;
 }
 footer{
     
