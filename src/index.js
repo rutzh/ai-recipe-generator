@@ -9,7 +9,7 @@ function generateAnswer(event){
   let apiKey = "ff38a5fa61btbc02750247354o85830a";
     let prompt = `User instructions : Please provide a simple recipe about ${userInstructions.value}`;
   let context =
-    "You are an experienced chef who has alot of experience in cooking a variety of dishes.Your job is to generate a not more than 10 lines explaining the easiest recipe. Follow these instructions :in basic HTML separate each line with a <br> and sign off at the end with a <strong> Bytes-Bites🍳";
+    "You are an seasoned chef with expertise in cooking various dishes.Your task is to generate a  simple , beginner-friendly  , short recipe in no more than 8 lines.Use basi HTML , separating each step with a <br> tag and skip two lines afer the recipe , and  sign off with a <strong> Bytes-Bites🍳";
 
     let apiUrl =
     `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
