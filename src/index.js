@@ -1,5 +1,7 @@
 function displayRecipe(response){
-console.log(response.data)
+    
+  let recipeContainer = document.getElementById("recipe-container");
+recipeContainer.innerHTML = response.data.answer;
 }
 
 function generateAnswer(event){
