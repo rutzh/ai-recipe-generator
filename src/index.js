@@ -1,3 +1,6 @@
+function displayRecipe(response){
+console.log(response.data)
+}
 
 function generateAnswer(event){
     event.preventDefault();
