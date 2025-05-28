@@ -9,6 +9,10 @@ h1{
     font-size:48px ;
     color:#333333;
 }
+a{
+ color: #c15b5b;
+
+}
 .form-container {
     
    display: flex;
