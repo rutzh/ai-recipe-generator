@@ -1,7 +1,12 @@
 function displayRecipe(response){
     
-  let recipeContainer = document.getElementById("recipe-container");
-recipeContainer.innerHTML = response.data.answer;
+    new Typewriter("#recipe-container", {
+      strings: response.data.answer,
+      autoStart: true,
+      cursor: "|",
+      delay: 25,
+    });  
+  
 }
 
 function generateAnswer(event){
@@ -16,7 +21,9 @@ function generateAnswer(event){
     let apiUrl =
     `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  
+    let recipeContainer = document.getElementById("recipe-container");
+
+    recipeContainer.innerHTML = `<div class="generating">⏳ Generating  ${userInstructions.value} recipe</div>`;
     
     axios.get(apiUrl).then(displayRecipe);
 }
